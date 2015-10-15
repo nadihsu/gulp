@@ -1,0 +1,82 @@
+{
+  "name": "project_origin",
+  "version": "0.0.0",
+  "authors": [
+    "ideamax_peter <peter@ideamax.com.tw>"
+  ],
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "fontawesome": "~4.4.0",
+    "fort.js": "https://github.com/idriskhenchil/Fort.js.git",
+    "fastclick": "~1.0.6",
+    "velocity": "~1.2.2",
+    "ScrollMagic": "~2.0.5",
+    "slick-carousel": "https://github.com/kenwheeler/slick.git#~1.5.2",
+    "slimScroll": "https://github.com/rochal/jQuery-slimScroll.git#~1.3.6",
+    "owl.carousel": "https://github.com/smashingboxes/OwlCarousel2.git#~2.0.0-beta.3",
+    "lity": "https://github.com/jsor/lity.git#~1.4.0",
+    "matchHeight": "https://github.com/liabru/jquery-match-height.git#~0.6.0",
+    "isotope": "~2.2.1",
+    "jquery-validation": "~1.14.0"
+  },
+  "devDependencies": {
+    "susy": "2.2.5",
+    "compass-breakpoint": "https://github.com/at-import/breakpoint.git#~2.6.1",
+    "vertical-rhythms-without-compass": "~1.0.1",
+    "modular-scale": "~2.1.1"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "dist/**/*.js"
+    },
+    "fontawesome": {
+      "main": "css/*.css"
+    },
+    "fort.js": {
+      "main": [
+        "*.js",
+        "*.css"
+      ]
+    },
+    "velocity": {
+      "main": "*.js"
+    },
+    "ScrollMagic": {
+      "main": "scrollmagic/minified/**"
+    },
+    "lity": {
+      "main": [
+        "dist/**/*"
+      ]
+    },
+    "owl.carousel": {
+      "main": "dist/**/*"
+    },
+    "slick-carousel": {
+      "main": [
+        "slick/*",
+        "slick/**/*.js",
+        "slick/**/*.css",
+        "slick/**/*.gif"
+      ]
+    },
+    "scrollReveal.js": {
+      "main": "dist/**/*"
+    },
+    "isotope": {
+      "main": "dist/**/*"
+    },
+    "jquery-validation": {
+      "main": "dist/**/*"
+    }
+  }
+}
